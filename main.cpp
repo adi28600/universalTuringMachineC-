@@ -61,8 +61,6 @@ class universalTuringMachine{
     long long endIndex = 10000-1;
     string tapeDescription[10000];
 
-
-
     public:
         void setValues(vector<string>, string, string, string, vector<string>, vector<vector<string>>);
         void halt();
